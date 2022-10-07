@@ -1,0 +1,53 @@
+/* Select all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* Header */
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:black;
+}
+.logo {
+    width: 2em;
+}
+.menu {
+    /* margin: auto 0; */
+    align-items: flex-end;
+    margin-top: 5px;
+}
+/* Navbar */
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 0 5px;
+}       
+/* main */
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+/* home */
+#home {
+    background-color:white;
+}
+.wrapper {
+    min-height: 100vh;
+    align-content: center;
+}
+.wrapper img{
+    display: block;
+    margin: 15px auto;
+}
+.wrapper p {
+    text-align: center;
+}

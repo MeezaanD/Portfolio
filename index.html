@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <img src="https://i.postimg.cc/5tMm65g5/download.png" alt="Profile Image">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <img class="logo" src="https://i.postimg.cc/5tMm65g5/download.png" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>|
+                <li><a href="#resume">Resume</a></li>|
+                <li><a href="#project">Project</a></li>|
+                <li><a href="#contact">Contact</a></li>|
             </ul>
         </nav>
     </header>
@@ -22,10 +23,11 @@
         <!--Home-->
         <section id="home">
             <h2>Home</h2>
-            <div>
-                <h4>Meezaan Davids</h4>
+            <div class="wrapper">
+            <h4>Meezaan Davids</h4>
                 <img src="https://i.postimg.cc/VLpktJnB/IMG-9425-1.jpg" alt="Profile">
-                <p>Student</p>
+                <p>Aspiring Web Developer<br>
+                   Fitness Enthusiast</p>
             </div>
 
         </section>
@@ -33,21 +35,49 @@
         <!--Resume-->
         <section id="resume">
             <h2>Resume</h2>
+            <p>Graduated from South Peninsula High School 2021 <br>
+                Passed Matric with bachelors <br>
+                Currently a student at Life Choices Academy <br>
+            </p>
 
         </section>
 
         <!--Project-->
         <section id="project">
             <h2>Project</h2>
+            Projects that I have worked on are listed below:
+            <li><a href="https://github.com/MeezaanD/Lifechoice">Lifechoice</a></li>
+            <!--Git hUb link-->
+        </section>   
 
-        </section>
          <!--Contact-->
         <section id="contact">
             <h2>Contact</h2>
+            <p>9 Elizabeth Road, Grassy Park <br>
+               Contact No:0658707217<br>
+               Email Address:meezaandavids365@gmail.com<br>
+            </p><br>
+            <form action="https://formspree.io/f/mbjbywlp" method="POST">
+                <div>
+                    <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                </div>
+                <div>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
 
         </section>
 
         
     </main>
+    <footer>
+        <p>Copyright &copy; 2022</p>
+    </footer>
+   </head> 
 </body>
 </html>
