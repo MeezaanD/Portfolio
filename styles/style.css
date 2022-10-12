@@ -55,14 +55,17 @@ h1,h2,h3,h4,h5,h6 {
     color: black;
     font-weight: bold;
     font-size: 25;
-    padding: 20px;
+    padding: 18px;
     background-color:gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
     
 }
 
 h1,h2,h3,h4,h5,h6 div:hover {
     background-color: orange;
+    margin: 20;
+
 }
 
 #home, #education, #about, #project, #contact, #skillsandinterest {
@@ -86,6 +89,7 @@ h1,h2,h3,h4,h5,h6 div:hover {
 .menu {
     margin-left: auto;
     align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .menu-list li {
   padding: 0 5px;
