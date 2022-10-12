@@ -1,8 +1,38 @@
 /* Select all elements */
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: black;
+    --secondaryColor: lime;
+    --alternativeColor: black;
+    --gray: orange;
+    --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
+    --landingPage : .5vw 1vw .5vw var(--gray);
+    --activeLink: #00B061;
+}
+a:link {
+    background-color: var(--gray);
+    color: var(--primaryColor);
+}
+a:visited {
+    color: var(--alternativeColor);
+    border-radius: 5px;
+}
+a:hover {
+    font-size: 18px;
+    color: var(--secondaryColor);
+    background-color: blue;
+}
+a:active {
+    color: var(--primaryColor);
+    background-color: var(--activeLink);
 }
 /* header, main, footer */
 header, main, footer {
@@ -22,17 +52,26 @@ header, .menu-list {
 h1,h2,h3,h4,h5,h6 {
     text-align: center;
     margin-bottom: 15px;
-    color: orange;
+    color: black;
     font-weight: bold;
     font-size: 25;
-    background-color: black;
+    padding: 20px;
+    background-color:gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
-#home, #education, #project, #contact, #skillsandinterest {
-    text-align: center;
+h1,h2,h3,h4,h5,h6 div:hover {
+    background-color: orange;
+}
+
+#home, #education, #about, #project, #contact, #skillsandinterest {
+    text-align:center;
     margin-bottom: 15px;
     color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .logo {
     width: 7em;
 }
@@ -58,3 +97,6 @@ h1,h2,h3,h4,h5,h6 {
   #footer {
     color: yellow;
   }
+
+
+  
