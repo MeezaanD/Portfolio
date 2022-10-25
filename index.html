@@ -34,7 +34,7 @@
                 <div class="flip-card">
                     <div class="flip-card-inner">
                       <div class="flip-card-front">
-                        <img class="profile" src="https://i.postimg.cc/VLpktJnB/IMG-9425-1.jpg" alt="profile" style="width:300px;height:300px;">
+                        <img class="profile" src="https://i.postimg.cc/VLpktJnB/IMG-9425-1.jpg" alt="profile" style="width:500px;height:550px;">
                       </div>
                       <div class="flip-card-back">
                         <p>Meezaan Davids</p> 
@@ -50,8 +50,8 @@
         </section>    
 
          <!--Education-->
-         <section id="education">
             <h2>Education</h2>
+            <section id="education">
             <p>Graduated from South Peninsula High School 2021 <br>
                 Passed Matric with bachelors <br>
                 Currently a student at Life Choices Academy <br>
@@ -83,7 +83,7 @@
     
                 <div class="skill-bar">
                     <span class="skill-per css">
-                        <span class="tooltip">70%</span>
+                        <span class="tooltip">40%</span>
                     </span>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 <span class="title">Bootstrap</span>
                 <div class="skill-bar">
                     <span class="skill-per bootstrap">
-                        <span class="tooltip">50%</span>
+                        <span class="tooltip">30%</span>
                     </span>
                 </div>
             </div>
@@ -157,7 +157,7 @@
         </p>
          </section>
             <h3>Want to know more about me?</h3>
-            <center><form action="https://formspree.io/f/mbjbywlp" method="POST">
+            <!-- <center><form action="https://formspree.io/f/mbjbywlp" method="POST">
                 <div>
                     <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
                     <label for=></label>
@@ -170,10 +170,39 @@
                 </div>
                 <div>
                     <input type="submit" value="submit">
-                </div></center>
+                </div></center> -->
              </section>
-                
-    
+             <form action="#" method="post" id="contact_form">
+                <div class="name">
+                  <label for="name"></label>
+                  <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                  <label for="email"></label>
+                  <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                </div>
+                <div class="telephone">
+                  <label for="name"></label>
+                  <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                </div>
+                <div class="subject">
+                  <label for="subject"></label>
+                  <select placeholder="Subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>Subject line</option>
+                    <option>I'd like to start a project</option>
+                    <option>I'd like to ask a question</option>
+                    <option>I'd like to make a proposal</option>
+                  </select>
+                </div>
+                <div class="message">
+                  <label for="message"></label>
+                  <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                  <input type="submit" value="Send Message" id="form_button" />
+                </div>
+              </form><!-- // End form -->
+            </div><!-- // End #container -->
         
         
 
