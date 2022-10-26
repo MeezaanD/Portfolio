@@ -280,7 +280,7 @@ h1,h2,h4,h5,h6 div:hover {
   }
   
   button, input, select, textarea {
-    color: #5A5A5A;
+    color: white;
     font: inherit;
     margin: 0;
   }
@@ -294,7 +294,7 @@ h1,h2,h4,h5,h6 div:hover {
   }
   
   #container {
-    border: solid 3px #474544;
+    border: solid 3px white;
     max-width: 768px;
     margin: 60px auto;
     position: relative;
@@ -306,7 +306,7 @@ h1,h2,h4,h5,h6 div:hover {
   }
   
   h1 {
-    color: #474544;
+    color: white;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 7px;
@@ -315,7 +315,7 @@ h1,h2,h4,h5,h6 div:hover {
   }
   
   .underline {
-    border-bottom: solid 2px #474544;
+    border-bottom: solid 2px white;
     margin: -0.512em auto;
     width: 80px;
   }
@@ -342,7 +342,7 @@ h1,h2,h4,h5,h6 div:hover {
     background: none;
     border: none;
     border-bottom: solid 2px #474544;
-    color: #474544;
+    color: white;
     font-size: 1.000em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -403,21 +403,21 @@ h1,h2,h4,h5,h6 div:hover {
   }
   
   ::-webkit-input-placeholder {
-    color: #474544;
+    color: white;
   }
   
   :-moz-placeholder { 
-    color: #474544;
+    color: white;
     opacity: 1;
   }
   
   ::-moz-placeholder {
-    color: #474544;
+    color: white;
     opacity: 1;
   }
   
   :-ms-input-placeholder {
-    color: #474544;
+    color: white;
   }
   
   #form_button {
