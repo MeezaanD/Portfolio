@@ -75,8 +75,23 @@ h1,h2,h4,h5,h6 div:hover {
 
 }
 
+#about {
+  width: 33%;
+  float: right;
+  padding: 15px;
+  border:transparent;
+  color: beige;
+}
 
-#home,#education, #about, #project, #contact, #skillsandinterest {
+#education {
+  width: 67%;
+  float: right;
+  padding: 15px;
+  border:transparent;
+  color: beige;
+}
+
+#home, #project, #contact, #skillsandinterest, #testimonial {
     text-align: center;
     margin-bottom: 15px;
     color: beige;
@@ -100,7 +115,7 @@ h1,h2,h4,h5,h6 div:hover {
 /* Flip Card */
   .flip-card {
     background-color: transparent;
-    width: 500px;
+    width: 400px;
     height: 550px;
     perspective: 1000px;
   }
@@ -136,7 +151,7 @@ h1,h2,h4,h5,h6 div:hover {
     background-color:orange;
     color: white;
     transform: rotateY(180deg);
-    border-radius:80px ;
+    border-radius:90px ;
   }
 
  /* ===== Google Font Import - Poppins ===== */
@@ -157,11 +172,11 @@ h1,h2,h4,h5,h6 div:hover {
   max-width: 500px;
   width: 100%;
   }
-.container{
+.container2 {
     position: relative;
     max-width: 500px;
     width: 100%;
-    background: black;
+    background:black;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px;
@@ -239,7 +254,36 @@ h1,h2,h4,h5,h6 div:hover {
     transform: translateX(-50%) rotate(45deg);
 
 }
+/* Contact Form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
   @media only screen and (max-width: 720px) {
     min-width: 300px;
