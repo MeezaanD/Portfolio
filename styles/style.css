@@ -135,8 +135,8 @@ h1,h2,h4,h5,h6 div:hover {
 /* Flip Card */
   .flip-card {
     background-color: transparent;
-    width: 400px;
-    height: 550px;
+    width: 40rem;
+    height: 40rem;
     perspective: 1000px;
   }
   
