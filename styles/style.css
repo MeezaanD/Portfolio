@@ -212,6 +212,8 @@ ul.timeline-3 > li:before {
   z-index: 400;
 }
 
+/* Skill-bar */
+
 .container .skill-box{
     width: 100%;
     margin: 25px 0;
