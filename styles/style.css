@@ -119,6 +119,7 @@ h1,h2,h4,h5,h6 div:hover {
   background-size: 80%;
   animation: shine 5s linear infinite;
   position: relative;
+  height: auto;
 }
 
 @keyframes shine {
