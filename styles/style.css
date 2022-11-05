@@ -142,8 +142,8 @@ h1,h2,h4,h5,h6 div:hover {
 /* Flip Card */
   .flip-card {
     background-color: transparent;
-    width: 40rem;
-    height: 40rem;
+    width: 400px;
+    height: 500px;
     perspective: 1000px;
   }
   
@@ -325,6 +325,9 @@ input[type=submit]:hover {
       width: 100%;
     }
     body {
+      width: 100%;
+    }
+    .flip-card-front {
       width: 100%;
     }
   
